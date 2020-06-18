@@ -1,0 +1,19 @@
+# Variables
+myname="Alperen" #string
+num1=6 #integer
+num2=2
+
+getDate()
+{
+  date
+  return
+}
+
+tarih=$(getDate)
+
+echo "Tarih = $tarih"
+echo "$myname"
+echo "$num1 + $num2 =" $((num1+num2))
+echo "$num1 - $num2 =" $((num1-num2))
+echo "$num1 x $num2 =" $((num1*num2))
+echo "$num1 / $num2 =" $((num1/num2))

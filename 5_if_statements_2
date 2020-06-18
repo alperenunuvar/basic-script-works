@@ -1,0 +1,13 @@
+username="admin"
+password="123"
+
+read -p "Username = " uname
+read -sp "Password = " pass
+echo ""
+
+if [ $username == $uname ] && [ $password == $pass ]
+then
+  echo "Login succesful!"
+else
+  echo "Login unsuccesful."
+fi

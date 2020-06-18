@@ -1,0 +1,17 @@
+read -p "What is your name? " name #Tek satırda işlem yapmak için
+
+echo "Hello $name! Let's be friend. What is your surname and age?"
+read surname age
+
+echo "Your name = $name"
+echo "Your surname = $surname"
+echo "Your age = $age"
+
+echo "Input your password..."
+read -sp "Password = " password
+echo ""
+echo "$name, your password is $password"
+
+echo "1+2=?"
+read
+echo "Your answer = $REPLY"

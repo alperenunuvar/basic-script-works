@@ -1,0 +1,5 @@
+echo $(( 1+1 ))
+
+num1=25
+
+echo "scale=2;sqrt($num1)" | bc -l

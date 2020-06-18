@@ -1,0 +1,20 @@
+# System Variables
+echo "$BASH"
+echo "$BASH_VERSION"
+echo "$HOME"
+echo "$PWD"
+
+
+# bash deneme arg1 arg2
+echo "Total number of command line argument are $#"
+echo "$0 is script name"
+echo "$1 is first argument"
+echo "$2 is second argument"
+echo "All of them are : $* or $@" # sadece $1 ve $2 yazar, $0 yazmaz
+# * hepsini gösterir @ index tutar
+
+# deneme is script name
+# arg1 is first argument
+# arg2 is second argument
+
+echo $0 $1 $2 $3
